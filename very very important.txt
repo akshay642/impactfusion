@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impact Fusion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #cdffdc;
+        }
+        .header {
+            background-color: #ff7373;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        .container {
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .event-description {
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+        .event-description p {
+            margin: 10px 0;
+        }
+        .brochure {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .brochure img {
+            max-width: 100%;
+            height: auto;
+        }
+        .logos {
+            text-align: center;
+            margin-top: 20px;
+            display: flex;
+            justify-content: center; /* Center align items horizontally */
+            align-items: center; /* Center align items vertically */
+        }
+        .logos img {
+            max-width: 150px; /* Reduced logo size */
+            height: auto;
+            margin: 0 10px; /* Add horizontal margin for spacing */
+        }
+        .header img {
+            max-width: 100px; /* Reduce header logo size */
+            height: auto;
+            vertical-align: middle; /* Align the logo vertically */
+        }
+        .event-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .event-link a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .association-text {
+            text-align: center;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact-info p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="pes.png" alt="Event Logo">
+        <h1>Impact Fusion Hackathon</h1>
+    </div>
+    <div class="container">
+        <h1>About the Event</h1>
+        <div class="event-description">
+            <p>
+                Impact Fusion Hackathon is a cutting-edge event that brings together innovators, developers, and problem solvers from around the world.
+                Join us for a weekend of creativity and collaboration, where you'll have the opportunity to work on real-world challenges and make a positive impact.
+            </p>
+            <p>
+                Whether you're a seasoned coder or just getting started, this hackathon welcomes participants of all skill levels. Get ready to network, learn, and build something incredible.
+            </p>
+        </div>
+        <h1>Contact Information</h1>
+        <div class="contact-info">
+            <p>Email: contact@impactfusionhackathon.com</p>
+            <p>Akshay: +91 1234567890</p>
+            <p>Nishant: +91 1234567890</p>
+            <p>Venue: Pesu 54</p>
+        </div>
+        <div class="association-text">
+            In Association with:
+        </div>
+        <div class="logos">
+            <img src="kok.jpeg" alt="Logo 1">
+            <img src="giz-logo.gif" alt="Logo 2">
+            <img src="lok.png" alt="Logo 2">
+            <img src="best.png" alt="Logo 2">
+            <img src="kar_main_logo.png" alt="Logo 2">
+        </div>
+        <h1>Event Brochures</h1>
+        <div class="brochure">
+            <img src="1.png" alt="Event Brochure 1">
+            <img src="2.png" alt="Event Brochure 2">
+        </div>
+        <div class="event-link">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdxdmoecOSQ2RyOO77ci7o-JibW-5os237yboCO3Z0ArUuxJQ/viewform">Register for the Event</a>
+        </div>
+    </div>
+</body>
+</html>
+
